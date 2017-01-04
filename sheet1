@@ -1,2 +1,258 @@
-test1
-sheet 2
+2. Find smallest substring which contains all characters from a given string?
+Input string1: “This is a test string”
+Input string2: “tist”
+Output: “t stri”
+How To handle Dynamic Webtable in Selenium
+
+ 
+
+ACTION CLASS OF SELENIUM:
+
+ 
+
+https://www.seleniumeasy.com/selenium-tutorials/handling-keyboard-events-and-mouse-hover-events-using-webdriver
+
+ 
+
+Right Click /Refresh Page/
+
+http://www.ufthelp.com/2014/11/working-with-action-class-in-selenium.html
+
+
+
+How to Fetch Tooltip of a control in selenium
+How to send text in captial letters in textbox
+Java Script Executor --
+
+http://www.ufthelp.com/2014/11/what-is-javascriptexecutor-in-selenium.html
+
+
+
+Java code to print matched string
+
+package workout;
+
+import java.util.Arrays;
+
+public class testThiyag {
+
+ 
+
+public static void main(String[] args)
+{
+
+              // TODO Auto-generated
+method stub
+
+      
+
+                           boolean bResult = true;           
+
+          
+String stringFirst = "DHONI";
+
+              String stringSecond = "ADabdsvDsDtesfsefHsdsrHefrsOsresfsfNsfsercvdIsfseffDdfsf323HadasdOdfsfNsdsfI";
+
+              StringBuffer stringOut = new StringBuffer(110);
+
+        String finalOut=null;
+
+        int indexFinal=0;
+
+        int indexValue;
+
+              
+
+        // Seperating Upper case from String
+2
+
+              for( int i =0 ;
+i<stringSecond.length();i++)
+
+              {
+
+                     char q=
+stringSecond.charAt(i);
+
+                     
+
+                     if(Character.isUpperCase(q))
+
+                     {      stringOut.append(q); }}     
+
+                                                       
+
+              System.out.println(stringOut);
+
+                     // Comparing String
+1 with String 2
+
+              
+
+              char[] string1Array=
+stringFirst.toCharArray();
+
+              
+
+              finalOut=stringOut.toString();
+
+                     
+
+                     for(int
+j=0;j<stringFirst.length();j++)
+
+                     {
+
+                           
+
+                           indexValue =
+finalOut.indexOf(string1Array[j]);
+
+                                         
+
+                           if(j!=0)
+
+                           {
+
+                           if(indexFinal<=indexValue)
+
+                           {bResult=true;       
+
+                           
+
+                           indexFinal=
+indexValue;}
+
+                           else{                      
+
+                                  bResult=false; break;
+
+                           }      }
+
+                           
+
+                           else
+
+                           {
+
+                                  if(indexValue>=0)
+
+                                  {bResult=true;       
+
+                                  
+
+                                  indexFinal=
+indexValue;}
+
+                                  else{                                    
+
+                                         bResult=false; 
+
+                                         break;
+
+                                  }      }      }
+
+
+                     if(bResult==true)    {System.out.println("Entered
+String is present in the same order in Encrypted String");     }
+
+                     else {System.out.println("Not present
+in same order in Encrypted String");        }}}
+
+ 
+
+                           
+
+              
+
+He
+will be expected to write piece of code on paper.
+
+ 
+
+Some sample questions.
+
+ 
+
+1) Given an array  -   1|2|2|1|3|4|5
+
+ 
+
+     Write the code to find the first
+duplicate from the array.The program should stop once the first duplicate is
+found.
+
+ 
+
+2) Given a class Employee with properties like name,
+id, age etc.
+
+ 
+
+            Write a
+piece of code to create an Employee Object and How will you get the name from
+the Employee Object.
+
+3) Inheritance. Parent class child class relationship.
+obj of parent class = obj of child class?
+
+obj of child class = obj of parent class?? Which is
+true and why? kind of questions.
+
+ 
+
+Also, Downcasting, upcasting questions
+
+ 
+
+4) Collections: Write a program to add elements into
+an arraylist or a hashmap. Then print all the elements from that collection.
+(like using iterator or some other ways)
+
+ 
+
+5) Consider an Employee class and its objects Obj1 and
+Obj2. How will you compare these two objects? Write a program for that.
+
+ 
+
+6) Selenium question - Given the drop down list. 
+
+             a) How
+will you select values from the list and validate it with the expected data.
+
+             b) How
+will you get the default selected value
+
+7) Write code to read data from excel file or a
+property file. 
+
+ 
+
+8) TestNG life cycle. All annotations with real time
+examples. When and where they are used and why?
+
+ 
+
+9) Parallel execution in Test NG
+
+ 
+
+10) Abstract class and Inheritance concepts.
+
+ 
+
+11) String Manipulation, Matching characters. String
+buffer, String Builder
+
+ 
+
+12) code to print a string in reverse.
+
+ 
+
+13) Increment and Decrement a value and printing it.
+
+
+
+
